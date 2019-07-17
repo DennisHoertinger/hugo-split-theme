@@ -6,7 +6,7 @@ Template URI: https://onepagelove.com/split
 Description: Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content.
 */
 /* -- CSS Reset -- */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600");
 @import url("https://fonts.googleapis.com/css?family=Lora");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -112,12 +112,12 @@ html {
 }
 
 body.page-template-page-fullsingle-split {
-  background-color: #061C30;
-  font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 33px;
-  letter-spacing: -0.2px;
+  /* letter-spacing: -0.2px;*/
   color: #848d96;
   animation: fadein 2s;
 }
@@ -182,7 +182,7 @@ body.page-template-page-fullsingle-split p {
   font-weight: 600;
   font-size: 64px;
   line-height: 80px;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
 }
 .split-intro h1 {
   font-weight: 600;
@@ -190,7 +190,7 @@ body.page-template-page-fullsingle-split p {
   font-size: 16px;
   line-height: 16px;
   margin-bottom: 40px;
-  letter-spacing: 0.4px;
+  /* letter-spacing: 0.4px; */
   color: #CA486d;
 }
 .split-intro .tagline {
@@ -333,21 +333,23 @@ body.page-template-page-fullsingle-split p {
   display: inline-block;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 18px;
   line-height: 11px;
   margin-bottom: 31px;
   color: #848d96;
-  letter-spacing: 2px;
-  opacity: 0.5;
+  /* letter-spacing: 2px; */
+  /* opacity: 0.5; */
 }
 .split-lists .split-list ul {
   display: inline-block;
 }
 .split-lists .split-list ul li {
+  text-transform: uppercase;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
   padding-left: 5px;
+  opacity: 0.5
 }
 .split-lists .split-list ul li a {
   color: #848d96;
